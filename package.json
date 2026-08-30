@@ -1,13 +1,26 @@
 {
   "name": "@flippo/tsconfig",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "private": true,
   "license": "MIT",
   "exports": {
     ".": "./tsconfig.base.json"
   },
   "devDependencies": {
-    "typescript": "catalog:"
-  }
+    "typescript": "^5.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlippoSoftware/tsconfig.git"
+  },
+  "homepage": "https://github.com/FlippoSoftware/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/FlippoSoftware/tsconfig/issues"
+  },
+  "files": [
+    "tsconfig.base.json"
+  ]
 }
