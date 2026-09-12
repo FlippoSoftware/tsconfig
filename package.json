@@ -1,5 +1,5 @@
 {
-  "name": "@flippo/tsconfig",
+  "name": "@flippo-software/tsconfig",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
@@ -7,7 +7,7 @@
     ".": "./tsconfig.base.json"
   },
   "devDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^7.0.2"
   },
   "publishConfig": {
     "access": "public"
@@ -22,5 +22,6 @@
   },
   "files": [
     "tsconfig.base.json"
-  ]
+  ],
+  "packageManager": "pnpm@11.24.0"
 }

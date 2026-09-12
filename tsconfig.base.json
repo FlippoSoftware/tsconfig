@@ -43,6 +43,6 @@
     "incremental": true,
 
     /* Completeness */
-    "skipLibCheck": true,
+    "skipLibCheck": true
   }
 }
