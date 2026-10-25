@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/FlippoSoftware/tsconfig/compare/tsconfig-v1.1.0...tsconfig-v1.1.1) (2026-10-25)
+
+
+### Bug Fixes
+
+* update release workflow and add .nvmrc and pnpm-workspace.yaml ([4d78a67](https://github.com/FlippoSoftware/tsconfig/commit/4d78a6766b5326e6ee7e40490fb6d0b431809ef4))
+* update release workflow and add .nvmrc and pnpm-workspace.yaml ([6ee3724](https://github.com/FlippoSoftware/tsconfig/commit/6ee37248a9bd0e7553fbf66e64bcdac3170cd54e))
+
 ## [1.1.0](https://github.com/FlippoSoftware/tsconfig/compare/tsconfig-v1.0.0...tsconfig-v1.1.0) (2026-10-24)
 
 
