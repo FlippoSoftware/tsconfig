@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/FlippoSoftware/tsconfig/compare/tsconfig-v1.1.1...tsconfig-v1.1.2) (2026-10-25)
+
+
+### Bug Fixes
+
+* refine condition for publish job in release workflow ([b10cceb](https://github.com/FlippoSoftware/tsconfig/commit/b10ccebca026b0ebc2f053b3e60af2e64af44b7c))
+* refine condition for publish job in release workflow ([0a989d2](https://github.com/FlippoSoftware/tsconfig/commit/0a989d27bd4a07dc32465326a31f80a5bdbfa248))
+
 ## [1.1.1](https://github.com/FlippoSoftware/tsconfig/compare/tsconfig-v1.1.0...tsconfig-v1.1.1) (2026-10-25)
 
 
