@@ -41,8 +41,9 @@ jobs:
 
     publish:
         needs: release-please
-        # Runs after a release of release-please, or by hand for an existing tag (the skipped job above does not block it).
-        if: ${{ always() && (needs.release-please.outputs.release_created == 'true' || github.event_name == 'workflow_dispatch') }}
+        # Runs after a release of release-please, or by hand for an existing tag. `!cancelled()` lets it run after the
+        # skipped job above (by default a job needs every `needs` to succeed) but not after Cancel.
+        if: ${{ !cancelled() && (needs.release-please.outputs.release_created == 'true' || github.event_name == 'workflow_dispatch') }}
         runs-on: ubuntu-latest
         timeout-minutes: 10
         permissions:
